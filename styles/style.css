@@ -1,0 +1,1007 @@
+/* (Звездочка) - Устанавливает обнуление отступов и отступов на всех элементах (margin: 0; padding: 0;).
+.header - Устанавливает стили для верхнего заголовка страницы, такие как фоновый цвет и высота.
+
+.nav - Определяет стили для основного меню, задает его отображение.
+
+.nav-left - Задает стили для левой части основного меню, такие как ширина и отступы.
+
+.nav-list - Устанавливает стили для списка элементов меню, такие как отображение и промежутки между элементами.
+
+.nav-list > li - Определяет стили для отдельных элементов списка меню, такие как размер шрифта, цвет текста и отступы.
+
+.main-li - Применяет стили для активного элемента меню, перезаписывая предыдущие стили, такие как размер шрифта, цвет текста и отступы.
+
+.nav-list > li:hover - Устанавливает стили при наведении на элементы меню, такие как изменение цвета текста и плавное переходное состояние.
+
+.nav-hidden-select - Задает стили для выпадающего списка меню на мобильных устройствах, такие как цвет фона и размер шрифта.
+
+.nav-hidden-select:active - Определяет стили для активного состояния элементов выпадающего списка на мобильных устройствах.
+
+@media(max-width: 1000px) - Медиа-запрос, определяющий стили для различных экранов с максимальной шириной 1000px и меняющий отображение меню и блока с кнопкой при адаптивности.
+
+.nav-right - Задает стили для правой части основного меню.
+
+.pole - Определяет стили для поля поиска, такие как цвет фона, отступы и размер шрифта.
+
+.pole:hover - Устанавливает стили при наведении на поле поиска, такие как изменение цвета фона.
+
+.nav-button - Задает стили для кнопки "Download" (загрузить), такие как цвет фона, отступы и размер шрифта.
+
+.nav-button:hover - Определяет стили при наведении на кнопку "Download", такие как изменение цвета фона.
+
+@media(max-width: 1350px) - Медиа-запрос, определяющий стили для экранов с максимальной шириной 1350px и скрывающий блок с текстом и кнопкой на маленьких экранах.
+
+.version-info - Задает стили для блока с информацией о версии программы, такие как цвет фона и высоту.
+
+.version-text - Определяет стили для текста версии программы, такие как цвет текста.
+
+.version-link - Определяет стили для ссылок в блоке информ
+.gray-block - Задает стили для серого блока на странице, такие как фоновый цвет и высоту.
+
+@media(max-width: 1500px) - Медиа-запрос, определяющий стили для экранов с максимальной шириной 1500px и изменяющий отображение серого блока на маленьких экранах.
+
+.gray-left - Задает стили для левой части серого блока, такие как отступы и отступ сверху.
+
+.text-block - Определяет стили для блока с текстом, такие как ширина и высота.
+
+.text1, .text2, .text3 - Задают стили для различных текстовых элементов в блоке с текстом, такие как размер шрифта, цвет текста и толщина шрифта.
+
+.button1, .button2 - Определяют стили для двух кнопок в блоке с текстом, такие как размеры, цвет фона и цвет текста.
+
+.text-with-back - Задает стили для блока с текстом и фоновым цветом, такие как высота, отступы и цвет фона.
+
+.link-back - Определяет стили для ссылок в блоке с текстом и фоновым цветом, такие как цвет ссылок и отступы.
+
+.text4, .lisence-link - Задают стили для текста и ссылки в блоке с текстом, такие как размер шрифта и цвет ссылки.
+
+.lampa, .lampa1 - Определяют стили для блоков с изображениями и текстом на странице, такие как выравнивание элементов и фоновый цвет.
+
+.lampa-text - Задает стили для блока с текстом внутри блока с изображением, такие как отступы и отступы сверху.
+
+.lampa-header, .lampa-main - Определяют стили для текстовых элементов в блоках с изображениями и текстом, такие как размер шрифта и отступы.
+
+@media(max-width: 1200px) - Медиа-запрос, определяющий стили для экранов с максимальной шириной 1200px и изменяющий отображение блоков с изображениями и текстом на маленьких экранах.
+
+.white-block - Задает стили для белого блока на странице, однако этот класс не используется в коде.
+
+.block-list - Определяет стили для списка с иконками, такие как отступы, размер шрифта и выравнивание текста.
+
+.block-list > li - Задает стили для элементов списка с иконками, такие как размер шрифта и цвет текста.
+
+@media(max-width: 900px) - Медиа-запрос, определяющий стили для экранов с максимальной шириной 900px и изменяющий отображение списка с иконками на маленьких экранах.
+
+.kupa-knopok - Задает стили для блока с кнопками для скачивания программы, такие как фоновый цвет и отступы.
+
+.block-knopok - Определяет стили для блоков с кнопками для скачивания программы, такие как выравнивание элементов и отступы.
+
+.little-buttons - Задает стили для маленьких кнопок, такие как размеры, цвет фона и цвет текста.
+
+.right-gray-button - Определяет стили для кнопки "Microsoft © 2023 Microsoft", такие как размеры, цвет фона и цвет текста.
+
+.pre-footer - Задает стили для блока перед подвалом страницы, такие как отступы и выравнивание элементов.
+
+.two-piece-block - Определяет стили для двух блоков в предподвале страницы, такие как отступы и выравнивание элементов.
+
+.left-side, .right-side - Задают стили для левой и правой частей блока в предподвале страницы, такие как отступы и размер шрифта.
+
+.bot-center - Определяет стили для центральной части блока в предподвале страницы, такие как размер шрифта и отступы.
+
+.bot-title, .bot-link - Задают стили для заголовка и ссылок в предподвале страницы, такие как размер шрифта и цвет ссылок.
+
+.footer - Задает стили для подвала страницы, такие как фоновый цвет и размеры блока.
+
+.footer-left, .footer-right - Определяют стили для левой и правой частей подвала страницы, такие как отступы и выравнивание элементов.
+
+.footer-list - Задает стили для списка элементов в подвале страницы, такие как отступы и выравнивание текста.
+
+.right-gray-button - Определяет стили для кнопки "Microsoft © 2023 Microsoft", такие как размеры, цвет фона и цвет текста.
+.icons-list - Задает стили для списка с иконками языков программирования, такие как выравнивание и отступы.
+
+.icons-list > li - Определяет стили для элементов списка с иконками языков программирования, такие как размеры и цвет текста.
+
+.icons-link - Задает стили для ссылки "and many more languages on the Marketplace...", такие как цвет и подчеркивание при наведении.
+
+.knopka - Определяет стили для кнопки "Get Started Now", такие как размеры, цвет фона и цвет текста.
+
+.kupa-knopok - Задает стили для блока с кнопками для скачивания программы, такие как фоновый цвет и отступы.
+
+.knopka - Определяет стили для кнопок скачивания программы, такие как размеры, цвет фона и цвет текста.
+
+.linux-pic - Задает стили для блока с изображением Linux.
+
+.linux-knopki - Определяет стили для блока с кнопками для скачивания программы для Linux.
+
+.downloads - Задает стили для таблицы с вариантами скачивания программы, такие как отступы и размер шрифта.
+
+.right-gray-button - Определяет стили для кнопки "Microsoft © 2023 Microsoft", такие как размеры, цвет фона и цвет текста.
+
+.pre-footer - Задает стили для блока перед подвалом страницы, такие как отступы и выравнивание элементов.
+
+.two-piece-block - Определяет стили для двух блоков в предподвале страницы, такие как отступы и выравнивание элементов.
+
+.left-side, .right-side - Задают стили для левой и правой частей блока в предподвале страницы, такие как отступы и размер шрифта.
+
+.bot-center - Определяет стили для центральной части блока в предподвале страницы, такие как размер шрифта и отступы.
+
+.bot-title, .bot-link - Задают стили для заголовка и ссылок в предподвале страницы, такие как размер шрифта и цвет ссылок.
+
+.footer - Задает стили для подвала страницы, такие как фоновый цвет и размеры блока.
+
+.footer-left, .footer-right - Определяют стили для левой и правой частей подвала страницы, такие как отступы и выравнивание элементов.
+
+.footer-list - Задает стили для списка элементов в подвале страницы, такие как отступы и выравнивание текста.
+
+.right-gray-button - Определяет стили для кнопки "Microsoft © 2023 Microsoft", такие как размеры, цвет фона и цвет текста. */
+
+
+
+
+
+
+
+/* display: flex; - определяет контейнер как гибкий контейнер (flex container). Это позволяет использовать свойства justify-content, align-items и другие для управления размещением элементов внутри контейнера.
+
+cursor - определяет тип указателя мыши при наведении на элемент. Например, cursor: pointer; показывает указатель в виде руки, что указывает на то, что элемент является кликабельным.
+
+text-align - задает выравнивание текста внутри элемента. Например, text-align: center; выравнивает текст по центру.
+
+justify-content - определяет выравнивание контента вдоль главной оси гибкого контейнера (если это контейнер с display: flex;). Например, justify-content: space-around; равномерно распределяет контент внутри контейнера с равными отступами между элементами.
+
+align-items - определяет выравнивание элементов вдоль поперечной оси гибкого контейнера (если это контейнер с display: flex;). Например, align-items: center; выравнивает элементы по центру поперечной оси.
+
+background-image - задает изображение фона элемента. Можно указать URL изображения или использовать линейные или радиальные градиенты в качестве фона.
+
+line-height - задает высоту строки текста. Например, line-height: 2; увеличивает интерлиньяж (расстояние между строками) в два раза относительно размера шрифта.
+
+border - задает стиль, толщину и цвет границы элемента. Например, border: 1px solid #000; создает границу толщиной 1 пиксель и цвета черного.
+
+border-radius - задает радиус скругления углов элемента. Например, border-radius: 8px; создает скругленные углы элемента.
+
+background-color - задает цвет фона элемента. Например, background-color: #f5f5f5; устанавливает светло-серый цвет фона.
+
+color - задает цвет текста. Например, color: white; устанавливает белый цвет текста.
+
+font-size - задает размер шрифта текста. Например, font-size: 18px; устанавливает размер шрифта 18 пикселей.
+
+font-weight - задает насыщенность шрифта (например, нормальный, полужирный и т.д.). Например, font-weight: 900; задает полужирный шрифт.
+
+text-decoration - определяет декорации текста, такие как подчеркивание, зачеркивание и т.д. Например, text-decoration: none; убирает декорации текста.
+
+list-style-type - определяет тип маркера для элементов списка. Например, list-style-type: none; убирает маркеры списков.
+
+cursor - определяет тип указателя мыши при наведении на элемент. Например, cursor: pointer; показывает указатель в виде руки, что указывает на то, что элемент является кликабельным.
+
+text-align - задает выравнивание текста внутри элемента. Например, text-align: center; выравнивает текст по центру.
+
+justify-content - определяет выравнивание контента вдоль главной оси гибкого контейнера (если это контейнер с display: flex;). Например, justify-content: space-around; равномерно распределяет контент внутри контейнера с равными отступами между элементами.
+
+align-items - определяет выравнивание элементов вдоль поперечной оси гибкого контейнера (если это контейнер с display: flex;). Например, align-items: center; выравнивает элементы по центру поперечной оси.
+margin - задает внешние отступы элемента. Он определяет расстояние между элементом и его соседями.
+
+padding - задает внутренние отступы элемента. Он определяет расстояние между границей элемента и его содержимым.
+
+box-sizing - определяет, как учитывать границы и заполнение элемента при определении его размеров. Значение border-box учитывает границы и заполнение в общей ширине и высоте элемента.
+
+background-color - задает цвет фона элемента.
+
+height - задает высоту элемента.
+
+width - задает ширину элемента.
+
+display - определяет тип отображения элемента (например, блочный, строчный, гибкий и т.д.).
+
+font-size - задает размер шрифта текста.
+
+color - задает цвет текста.
+
+cursor - определяет тип указателя мыши при наведении на элемент.
+
+text-align - задает выравнивание текста внутри элемента.
+
+justify-content - определяет выравнивание контента вдоль главной оси гибкого контейнера.
+
+align-items - определяет выравнивание элементов вдоль поперечной оси гибкого контейнера.
+
+list-style-type - определяет тип маркера для элементов списка.
+
+border - задает стиль, толщину и цвет границы элемента.
+
+border-radius - задает радиус скругления углов элемента.
+
+line-height - задает высоту строки текста.
+
+background-image - задает изображение фона элемента.
+
+font-weight - задает насыщенность шрифта (например, нормальный, полужирный и т.д.).
+
+text-decoration - определяет декорации текста, такие как подчеркивание, зачеркивание и т.д. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+
+    background-color: #2c2c32;
+    height: 40px;
+
+    display: flex;
+}
+
+.nav{
+
+    display: flex;
+
+}
+
+.nav-left{
+
+    height: 100%;
+    width: 700px;
+    margin-left: 300px;
+
+}
+.nav-list{
+
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav-list > li{
+    
+    font-size: 18px;
+    color:#97aaad;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.main-li{
+
+    font-size: 20px !important;
+    color: white !important;
+    padding: 10px !important; 
+
+    cursor: pointer;
+}
+
+.nav-list > li:hover{
+
+    color: white;
+    transition: 0.3s;
+}
+.nav-hidden-select{
+
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+    width: 200px;
+    height: 100%;
+
+    background-color: #2c2c32;
+    border: none; 
+    color: white;
+    font-size: 20px;
+}
+.nav-hidden-select:active{
+
+    border: none;
+}
+
+@media(max-width: 1000px){
+
+    .nav-list{
+
+        display: none;
+    }
+    .nav-hidden-select{
+
+        display: block;
+    }
+}
+.nav-right{
+
+    margin-left: 150px;
+    
+}
+
+.pole{
+
+    height: 100%;
+    background-color: #3d3d42;
+
+    border: none;
+
+    padding: 15px;
+
+    color: white;
+    font-size: 18px;
+}
+.pole :hover{
+
+    background-color: #525257;
+}
+
+.nav-button{
+
+    height: 100%;
+    width: 100px;
+    border: none;
+    
+    background-color: #0066b8;
+
+    color: white;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+.nav-button:hover{
+     
+    background-color: #005ba4;
+}
+
+@media(max-width: 1350px){
+
+    .pole{
+
+        display: none;
+    }
+    .nav-button{
+
+        display: none;
+    }
+}
+
+.version-info{
+
+    background-color: #25252b;
+    height: 40px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.version-text{
+
+    color: #cccccc;
+}
+.version-link{
+
+    color: #0098dd;
+    
+}
+.version-link:hover{
+
+    text-decoration: none;
+   
+}
+
+.gray-block{
+
+    background-color: #2c2c32;
+    height: 700px;
+
+    display: flex;
+}
+
+@media(max-width: 1500px){
+
+    .gray-block{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.gray-left{
+
+    margin-left: 200px;
+    padding-top: 100px; 
+}
+
+.text-block{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+
+}
+.text1{
+
+    font-size: 40px;
+    color: white;
+}
+
+.text2{
+
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+}
+
+.text3{
+
+    color: #a2a9a5;
+    font-size: 18px;
+
+    margin-bottom: 20px;
+}
+
+.button1{
+
+    height: 45px;
+    background-color: #0066b8;
+    border: none;
+
+    color: white;
+
+    font-size: 18px;
+    
+    cursor: pointer;
+
+
+}
+.button1:hover{
+    background-color: #005ba4;
+}
+
+.button2{
+
+    height: 45px;
+    width: 30px;
+    background-color: #0066b8;
+    border: none;
+
+    color: white;
+
+    font-size: 18px;
+    
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: #005ba4;
+}
+
+.text-with-back{
+
+    height: 20px;
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    background-color: #25252b;
+
+    border-radius: 8px;
+}
+
+.link-back{
+
+    color: #0098dd;
+
+    text-decoration: none;
+}
+
+.link-back:hover{
+
+    text-decoration: underline;
+}
+
+.text-with-back > span{
+
+    color: lightgray;
+}
+
+.text4{
+    color: lightgray;
+    font-size: 15px;
+
+}
+
+.lisence-link{
+
+    color: #0098dd;
+    text-decoration: none;
+
+    font-size: 15px;
+}
+.lisence-link:hover{
+
+    text-decoration: underline;
+}
+
+.gray-right{
+
+    margin-left: 90px;
+    margin-top: 5px;
+    height: 689px;
+    width: 888px;
+
+    background-image: url(../images/screen.jpg)
+}
+
+.white-block{
+    
+
+    background-color: white;
+    
+}
+
+.block-list{
+
+    display: flex;
+    justify-content: space-around;
+    
+
+    list-style-type: none;
+
+    text-align: center;
+
+    font-size: 20px;
+
+    height: 130px;
+    
+}
+
+.block-list > li{
+    
+    display: block;
+}
+
+.block-list :hover{
+
+    background-color: #e3e3e3;
+    cursor: pointer;
+}
+
+@media(max-width: 900px){
+
+    .block-list{
+
+        flex-wrap: wrap;
+    }
+}
+
+
+
+.worker-info{
+    
+    background-color: #f5f5f5;
+    
+    display: flex;
+    justify-content: space-around;
+    
+    margin-bottom: 120px; 
+}
+
+.feedback{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+} 
+
+@media(max-width: 1000px){
+
+    .worker-info{
+
+        flex-wrap: wrap;
+    }
+}
+
+.worker-link{
+
+    color: black;
+    font-size: 20px;
+    font-weight: 900; 
+    text-decoration: none;
+}
+
+.worker-link:hover{
+
+    color: #0098dd;
+}
+
+.worker-link > span{
+
+    color: lightgray;
+    font-size: 13px;
+}
+
+.lampa{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    margin-bottom: 100px;
+
+    height: 300px;
+    width: 100%;
+
+    background-color: white;
+
+   
+}
+
+.lampa-text{
+
+    margin-left: 300px;
+}
+
+.lampa-header{
+
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.lampa-main{
+
+    font-size: 25px;
+    line-height: 2; 
+}
+
+@media(max-width: 1200px){
+
+    .lampa{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 300px;
+    }
+    .lampa1{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 300px;
+    }
+}
+
+.lampa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    margin-bottom: 100px;
+
+    height: 300px;
+    width: 100%;
+
+    background-color: #f5f5f5;
+
+}
+
+.lampa1-text{
+
+    margin-right: 200px;
+}
+
+.lampa-link{
+
+    color: #0098dd;
+    text-decoration: none;
+}
+.lampa-link:hover{
+
+    text-decoration: underline;
+    color: #0058ab;
+}
+
+.Vs{
+
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.icon-list{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    height: 80px;
+    width: 500px;
+
+    list-style-type: none;
+    
+}
+
+.icons-box{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: #f5f5f5;
+    height: 400px;
+}
+.icons-link{
+
+    color: #0098dd;
+    text-decoration: none;
+    
+    font-size: 27px;
+
+    margin-bottom: 80px;
+    
+}
+.icons-link:hover{
+
+    text-decoration: underline;
+    color: #0058ab;
+}
+
+.knopka{
+
+    height: 60px;
+    width: 250px;
+
+    background-color: #0066b8;
+    color: white;
+    font-weight: 900;
+    border: none; 
+}
+
+.knopka:hover{
+
+    background-color: #005ba4;
+    cursor: pointer;
+}
+
+.kupa-knopok{
+
+   display: flex; 
+
+   justify-content: space-around;
+}
+.block-knopok{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.block-knopok > img{
+
+    margin-bottom: 20px;
+}
+
+.downloads{
+
+    margin-top: 10px;
+}
+
+.little-buttons{
+
+    padding: 2px;
+    background-color: #0066b8;
+    color: white;
+    
+    border: none; 
+    border-radius: 3px;
+    
+}
+.little-buttons:hover{
+
+    background-color: #005ba4;
+    cursor: pointer;
+}
+
+.linux-pic{
+    height: 240px;
+    width: 200px;
+    
+}
+.linux-knopki{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 310px;
+}
+
+.linux-knopka{
+
+    height: 60px;
+    width: 150px;
+
+    background-color: #0066b8;
+    color: white;
+    font-weight: 900;
+    border: none; 
+}
+.linux-knopka:hover{
+
+    background-color: #005ba4;
+    cursor: pointer;
+}
+
+.apple-logo{
+
+    height: 240px;
+    width: 200px;
+}
+
+.pre-footer{
+
+    height: 400px;
+    background-color: #f5f5f5;
+
+}
+.two-piece-block{
+
+    display: flex;
+    justify-content: center;
+    
+    justify-content: space-around; 
+    
+}
+
+.left-side{
+
+    margin-top: 60px;
+    line-height: 2; 
+}
+.left-side > strong{
+    font-size: 28px;
+}
+.left-side > p{
+
+    font-size: 20px;
+    text-align: center;
+}
+
+.right-side{
+
+    margin-top: 60px;
+    line-height: 2; 
+}
+.right-side > strong{
+    font-size: 28px;
+}
+.right-side > p{
+
+    font-size: 20px;
+    text-align: center;
+}
+
+.bot-center{
+
+    text-align: center;
+    margin-top: 70px;
+}
+.bot-link{
+
+    color: #0098dd;
+    text-decoration: none;
+    
+    font-size: 18px;
+    
+}
+.bot-link:hover{
+
+    text-decoration: underline;
+    color: #0058ab;
+}
+
+.bot-center > p{
+
+    line-height: 2; 
+}
+.bot-title{
+
+    font-weight: 800;
+}
+
+.footer{
+
+    height: 100px;
+    background-color: #333333;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.footer-left{
+
+    width: 500px;
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.footer-left > p{
+
+    color: white;
+    font-size: 18px;
+}
+.footer-link{
+
+    text-decoration: none;
+    color: white;
+}
+.footer-link:hover{
+
+    color: #a190e1;
+}
+
+.footer-button1{
+
+    border: none;
+    font-weight: 700;
+    border-radius: 3px;
+    width: 100px;
+
+}
+.footer-button1:hover{
+
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.footer-button2{
+
+    border: none;
+    font-weight: 700;
+    border-radius: 3px;
+    width:60px;
+
+}
+.footer-button2:hover{
+
+    color: #3374a9;
+    cursor: pointer;
+}
+
+
+.footer-right{
+
+    display: flex;
+    align-items: center;
+}
+.footer-list{
+
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: white;
+}
+.footer-list > li:hover{
+
+    color: #a190e1;
+    cursor: pointer;
+}
+
+.right-gray-button{
+
+    background-color: #333333;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.right-gray-button:hover{
+
+    cursor: pointer;
+}
